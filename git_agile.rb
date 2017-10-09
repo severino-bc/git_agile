@@ -14,7 +14,7 @@ if n.to_i == 1
 
 	puts "Qual nome da branch que deseja criar?"
 	a = gets
-	puts "Crinando branch"
+	puts "Criando branch"
 	sleep(1)
 	system("git branch #{a}") 
 
@@ -22,7 +22,7 @@ elsif n.to_i == 2
 
 	puts "Qual nome da branch que deseja criar e usar ?"
 	b = gets
-	puts "Crinando branch e usando"
+	puts "Criando branch e usando #{b}"
 	sleep(1)
 	system("git checkout -b #{b}") 
 
